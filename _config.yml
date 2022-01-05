@@ -1,0 +1,57 @@
+# home page options
+title: Tailpages = Tailwind + Github Pages
+subtitle: Tailpages is a free Github Pages (Jekyll) template based on Tailwind CSS
+
+# banner image name - you need to put the image in "assets/img/" folder
+banner-image: balazs-ketyi-_x335IZXxfc-unsplash.jpeg
+
+# download url
+download: https://github.com/harrywang/tailpages
+
+# your github url: https://USERNAME.github.io
+# base url is the repo's name
+# the following will match https://harrywang.github.io/tailpages/
+url: https://harrywang.github.io/tailpages/
+
+# To enable google analytics, supply your token below
+analytics-google: G-WCRC1TC2V5
+
+# use false to turn off any social media links
+facebook: false
+twitter: https://twitter.com/harryjwang
+medium: https://harrywang.medium.com/
+github: https://github.com/harrywang
+
+# if you don't need "about" or "blog", comment them out below
+about: true
+blog: true
+
+# github metadata - no need to change
+github: [metadata]
+
+markdown: GFM
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-admin
+  - jekyll-paginate-v2
+
+jekyll-mentions:
+  base_url: 
+
+compress_html:
+  ignore:
+    envs:
+      - development
+      - stage
+
+exclude:
+  [
+    "README.md",
+    "Gemfile",
+    "Gemfile.lock",
+    "vendor",
+  ]

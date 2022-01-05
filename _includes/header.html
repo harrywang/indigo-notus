@@ -1,0 +1,51 @@
+<section id="header">
+<div
+class="relative pt-16 pb-32 flex content-center items-center justify-center min-h-screen-75"
+>
+<div
+  class="absolute top-0 w-full h-full bg-center bg-cover"
+  style="
+    background-image: url('assets/img/{{site.banner-image}}');
+  "
+>
+  <span
+    id="blackOverlay"
+    class="w-full h-full absolute opacity-50 bg-black"
+  ></span>
+</div>
+<div class="container relative mx-auto">
+  <div class="items-center flex flex-wrap">
+    <div class="w-full lg:w-8/12 px-4 ml-auto mr-auto text-center">
+      <div class="pr-12">
+        <h1 class="text-white font-semibold text-4xl">
+            {{site.title}}
+        </h1>
+        <p class="mt-4 text-lg text-blueGray-200">
+            {{site.subtitle}}
+        </p>
+        <div class="mt-12">
+            <a
+              href="{{site.download}}"
+              target="_blank"
+              class="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-pink-500 active:bg-pink-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
+            >
+              Get started
+            </a>
+            <a
+              href="{{site.download}}"
+              class="github-star ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-600 active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
+              target="_blank"
+            >
+              Github Star
+            </a>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+
+
+
+
