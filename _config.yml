@@ -1,6 +1,7 @@
 # home page options
-title: Tailpages = Tailwind + Github Pages
-subtitle: Tailpages is a free Github Pages (Jekyll) template based on Tailwind CSS
+title: Tailpages
+home-header-title: Tailpages = Tailwind + Github Pages
+home-header-subtitle: Tailpages is a free Github Pages (Jekyll) template based on Tailwind CSS
 
 # banner image name - you need to put the image in "assets/img/" folder
 banner-image: balazs-ketyi-_x335IZXxfc-unsplash.jpeg
